@@ -1,0 +1,21 @@
+{% extends "encyclopedia/layout.html" %}
+
+{% block title %}
+    New Article
+{% endblock %}
+
+{% block body %}
+    <p class = "new_error" style="background-color: black;
+    color: red;
+    font-family: 'Courier New', Courier, monospace;"><b>{{message}}</b></p>
+    <form method = "POST" action = "{% url 'encyclopedia:new'%}">
+        {% csrf_token %} 
+        <h1><label for="title"></label>Title</h1>
+        <input type="text" name = "title" value = "{{title}}">
+        <h1><label for="new_article">Start typing your new article here:</label></h1>
+        <textarea name="new_article" cols="30" rows="10">{{new_article}}</textarea>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+    <br>
+
+{% endblock %}
