@@ -1,4 +1,4 @@
-#Project 1 - Wiki
+# Project 1 - Wiki
 
 This is the first project of the specialization course by Harvard, CS50W. 
 We use Django framework to design a very small web application which is arguably a BAD replica of WikiPedia. Call it the poor man's Wikipedia.
