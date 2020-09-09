@@ -8,3 +8,5 @@ Just in case you're interested in the problem and think you can do it in a bette
 https://cs50.harvard.edu/web/2020/projects/1/wiki/
 
 Also, this is my first time using Django, it was fun :P xD
+
+Here's a preview: https://youtu.be/SYNNVc0T098
